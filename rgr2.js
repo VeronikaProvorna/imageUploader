@@ -3,11 +3,13 @@ const closeBtn = document.getElementById("closeBtn");
 
 closeBtn.addEventListener("dblclick", closeBanner);
 
-setTimeout(showBanner, 10000);
+//змінимо час показу банера - зміна в branch 1
+setTimeout(showBanner, 5000);
 
 function closeBanner(){
     banner.style.display = "none";
-    setTimeout(showBanner, 10000);
+    //змінимо час показу банера - зміна в branch 1
+    setTimeout(showBanner, 5000);
 }
 
 function showBanner(){
