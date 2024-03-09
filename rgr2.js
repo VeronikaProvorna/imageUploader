@@ -3,12 +3,12 @@ const closeBtn = document.getElementById("closeBtn");
 
 closeBtn.addEventListener("dblclick", closeBanner);
 
-setTimeout(showBanner, 5000);
+setTimeout(showBanner, 6000);
 
 function closeBanner(){
     banner.style.display = "none";
 
-    setTimeout(showBanner, 5000);
+    setTimeout(showBanner, 6000);
 }
 
 function showBanner(){
